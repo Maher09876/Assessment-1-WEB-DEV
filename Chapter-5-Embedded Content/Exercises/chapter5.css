@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.video-section, .soundboard-section {
+    padding: 30px;
+}
+
+.center-video {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #333;
+    border-radius: 8px;
+}
+
+/* soundboard */
+.soundboard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.sound-btn {
+    padding: 15px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    transition: 0.3s;
+}
+
+.sound-btn:hover {
+    background-color: #2980b9;
+}
